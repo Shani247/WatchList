@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.WatchList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- צבע ActionBar / Toolbar -->
+        <item name="colorPrimary">@color/baby_pink</item>
+        <!-- צבע הטקסט והאייקונים בתפריט -->
+        <item name="actionMenuTextColor">@android:color/white</item> <!-- אם את רוצה לבן על ורוד -->
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+    <style name="Theme.WatchList" parent="Base.Theme.WatchList" />
+</resources>

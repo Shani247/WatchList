@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_action"
+        android:title="Action movies"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_comedy"
+        android:title="Comedy movies" />
+    <item
+        android:id="@+id/action_watched"
+        android:title="Watched movies"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_romance"
+        android:title="Romance movies" />
+    <item
+        android:id="@+id/action_add"
+        android:title="Add movie"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="Exit"
+        android:orderInCategory="100" />
+</menu>
