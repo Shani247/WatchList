@@ -7,4 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <TextView
+        android:id="@+id/odot"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:padding="16dp"
+        android:text="ברוכים הבאים ל-WatchList! 🎬\n\nהאפליקציה שתעזור לכם לעשות סדר בעולם הסרטים האישי שלכם.\n\nWatchList נוצרה כדי לתת לכם מענה פשוט ונוח לניהול רשימת המשאלות הקולנועית שלכם.\n\nנתקלתם בסרט שאתם חייבים לראות? פשוט הוסיפו אותו לקטגוריה המתאימה – אקשן, קומדיה או רומנטיקה – והוא יחכה לכם שם."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
