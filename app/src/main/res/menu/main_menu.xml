@@ -9,7 +9,7 @@
         android:id="@+id/action_comedy"
         android:title="Comedy movies" />
     <item
-        android:id="@+id/action_watched"
+        android:id="@+id/action_posters"
         android:title="Watched movies"
         android:orderInCategory="100" />
     <item

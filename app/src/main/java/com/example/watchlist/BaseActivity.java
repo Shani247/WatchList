@@ -2,7 +2,7 @@ package com.example.watchlist;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 public abstract class BaseActivity extends AppCompatActivity {
     // מכריזים על מחלקה בשם BaseActivity שהיא abstract.
@@ -29,8 +29,8 @@ public abstract class BaseActivity extends AppCompatActivity {
             return true;
             // מחזיר true כדי לאותת ל-Android שהאירוע טופל.
         }
-        else if (id == R.id.action_watched) {
-            Intent intent = new Intent(this, Watched.class);
+        else if (id == R.id.action_posters) {
+            Intent intent = new Intent(this, posters.class);
             startActivity(intent);
             return true;
         }
